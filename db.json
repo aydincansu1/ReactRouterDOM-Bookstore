@@ -1,0 +1,94 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Çürümenin Kitabı",
+      "author": "Emil Michel Cioran ",
+      "image": "https://img.kitapyurdu.com/v1/getImage/fn:11655639/wh:true/wi:800",
+      "year": 1866,
+      "page": 500,
+      "description": "Raskolnikov hayatı",
+      "category": "Roman"
+    },
+    {
+      "id": 2,
+      "title": "Taşları Yemek Yasak",
+      "author": "İsmet Özel",
+      "image": "https://img.kitapyurdu.com/v1/getImage/fn:11358705/wh:true/wi:800",
+      "year": 1927,
+      "page": 350,
+      "description": "Korku ve gerilim dolu öyküler",
+      "category": "Hikaye"
+    },
+    {
+      "id": 3,
+      "title": "Erbain",
+      "author": "İsmet Özel",
+      "image": "https://img.kitapyurdu.com/v1/getImage/fn:228410/wh:true/wi:800",
+      "year": 1949,
+      "page": 328,
+      "description": "Distopik bir gelecekte totaliter bir rejim",
+      "category": "Siir"
+    },
+    {
+      "id": 4,
+      "title": "Fareler ve İnsanlar",
+      "author": "John Steinbeck",
+      "image": "https://img.kitapyurdu.com/v1/getImage/fn:11227945/wh:true/wi:800",
+      "year": 1849,
+      "page": 150,
+      "description": "Karanlık şiirler ve hikayeler",
+      "category": "Roman"
+    },
+    {
+      "id": 5,
+      "title": "Risaletü'n-Nushiyye",
+      "author": "Yunus Emre",
+      "image": "https://img.kitapyurdu.com/v1/getImage/fn:10568521/wh:true/wi:800",
+      "year": 1897,
+      "page": 418,
+      "description": "Vampir mitolojisinin klasik eseri",
+      "category": "Hikaye"
+    },
+    {
+      "id": 6,
+      "title": "Kinyas ve Kayra",
+      "author": "Joseph Heller",
+      "image": "https://img.kitapyurdu.com/v1/getImage/fn:11784545/wh:true/wi:800",
+      "year": 1961,
+      "page": 453,
+      "description": "II. Dünya Savaşı döneminde geçen absürt bir savaş romanı",
+      "category": "Roman"
+    },
+    {
+      "id": 7,
+      "title": "Tatar Çölü",
+      "author": "Dino Buzzati",
+      "image": "https://img.kitapyurdu.com/v1/getImage/fn:10330721/wh:true/wi:800",
+      "year": 1899,
+      "page": 96,
+      "description": "Yaşamın anlamını sorgulayan bir deneme",
+      "category": "Roman"
+    },
+    {
+      "id": 8,
+      "title": "Yalnızlığın İcadı (1984)",
+      "author": "Bülent Parlak ",
+      "image": "https://img.kitapyurdu.com/v1/getImage/fn:11545908/wh:true/wi:800",
+      "year": 1981,
+      "page": 152,
+      "description": "Latin Amerika'nın gerçeküstü edebiyatın ustasından bir roman",
+      "category": "Hikaye"
+    },
+    {
+      "id": 9,
+      "title": "Körlük",
+      "author": "Jose Saramago",
+      "image": "https://img.kitapyurdu.com/v1/getImage/fn:11736968/wh:true/wi:800",
+      "year": 1934,
+      "page": 256,
+      "description": "Ünlü dedektif Hercule Poirot'nun maceraları",
+      "category": "Roman"
+    }
+  ]
+}
