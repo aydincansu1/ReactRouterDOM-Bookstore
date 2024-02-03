@@ -1,44 +1,32 @@
-# Routes:
+# Kitap Kurdu
 
-tarayicidaki urli izler url degistiginde
-yol tanimladigimiz route'lardan birinin path degeri ile eslesirse
-ekrana o route'un elementini basar
+Bu proje, **React Router DOM** kullanılarak geliştirilmiş bir online kitap mağazasını içermektedir. Proje, React Router DOM'un temel özelliklerini anlamak ve kullanmak için geliştirilmiştir. Aşağıda projede kullanılan bazı önemli özelliklere ve bileşenlere dair bilgiler yer almaktadır:
 
-# Link
+## Özellikler
 
-- Proje icerisinde yonlendirme islemlerinde a etiketi yerine kullanilir
-- Href yerine to degeri yonlendirilecek sayfayi belirler
+### 1. React Router DOM Kullanımı
+   - `BrowserRouter` component'i, tarayıcıdaki URL'ye göre sayfalama sağlar.
+   - `Routes` ve `Route` component'leri, farklı sayfaların ve yolların tanımlanmasını sağlar.
 
-# Navlink
+### 2. Dinamik Sayfalama
+   - `/:id` şeklindeki dinamik yol tanımlarıyla, ürün detayları gibi dinamik içeriklerin yönetimi mümkündür. Örneğin, `/ürün/123` URL'iyle erişilen sayfa, 123 numaralı ürünün detaylarını gösterir.
 
-- Link etiketi ile ayni gorevi yapar
+### 3. İç İçe Yollar (Nested Routes)
+   - `CategoryPage` içindeki farklı kategorilere ait iç içe geçmiş yollar ile karmaşık sayfa yapıları oluşturulabilir. Örneğin, `/kategori/hikaye`, `/kategori/roman`, gibi iç içe geçmiş kategorilere ait sayfalar yönetilebilir.
 
-# Dynamic Route
+### 4. Ortak Bileşenler
+   - `Header` ve `Footer` component'leri, bütün sayfalar arasında ortak olarak kullanılır. Bu sayede proje genelinde tutarlı bir tasarım sağlanır.
 
-- Sayfa icerigini url'den alinan parametre gore degistigi sayfalara verdigimiz isim
+### 5. 404 Sayfası
+   - Tanımlanmayan bir yol girildiğinde kullanıcıyı karşılayan özel bir 404 sayfası (`NotFound`) bulunmaktadır.
 
-- Orn : Youtubede video sayfasi
-- Netflix film sayfasi gibi
+## Kullanılan Teknolojiler ve Harici Kütüphaneler
+* React.js
+* React-Router-DOM
+* JSON-Server
+* Axios
+* Bootstrap
 
-# useLocation
+## Ekran Gifi
 
-- kullanicinin bulunduiugu sayfayla ilgili bilgileri verir
-
-# useNavigate
-
-- linkin fonksiyon karsiligi
-- Kullanilabilmesi icin bir kere cagrilmasi gerekli birlesende
-- const Navigate = useNavigate()
-
-# Sw=earch Params (Arama parametresi)
-
-- Normalde statede tutacagimiz degerleri arama parametresinde tutmak isteyebiliriz
-
-- State'de tutulan veriler sayfa yenilendiginde kaybolur
-
-- Ama arama parametresinde boyle bir durum soz konusu degil
-
-- Bu yuzden sayfa yenilenice kaybetmek istemedigimiz ornegin filtreleme degerlerini arama parametresi olarak tutariz
-
-
-# Nested Router (ic ice yollar)
+![books](https://github.com/aydincansu1/ReactRouterDOM-Bookstore/assets/134061696/8426da2a-0f15-4868-8c78-73c90a680293)
